@@ -1,0 +1,22 @@
+Những chức năng đã được hoàn thành:
+*admin
+-Load sản phẩm
+-Thêm sản phẩm
+-Xóa sản phẩm
+-Chỉnh sửa sản phẩm
+-Phân trang
+*database
+-Query insert product
+-Query insert account
+-Query insert catalog
+*user
+-cập nhật tài khoản
+	+load thông tin tài khoản gồm username, name, email, phone,
+		role(role=1 hiển thị role là Admin
+			role!=1 hiển thị đăng ký tài khoản VIP)
+	+thay đổi thông tin username, name, role=1 thì không thể thay đổi
+	có thể thay đổi email và phone
+-Đổi mật khẩu
+*t sửa lại code phân trang load lên 12 sp nhưng chỉ cộng 3sp mỗi lần
+*cập nhật lại lỗi giao diện trang admin
+*chức năng review đang chỉnh sửa một số lỗi nên sẽ gửi sau
